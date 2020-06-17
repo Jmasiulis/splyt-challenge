@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slider /> should render with default props 1`] = `
+<styled.div>
+  <WithStyles(ForwardRef(Slider))
+    aria-labelledby="discrete-slider-small-steps"
+    defaultValue={10}
+    marks={true}
+    max={50}
+    min={1}
+    onChange={[Function]}
+    onChangeCommitted={[Function]}
+    step={1}
+    value={10}
+    valueLabelDisplay="auto"
+  />
+  <span>
+    Selected number of drivers:
+     
+    10
+  </span>
+</styled.div>
+`;
