@@ -29,6 +29,7 @@ export function DriversMap({ google, driverLocations }: any): React.ReactElement
           position={
             { lat: driverLocation.location.latitude, lng: driverLocation.location.longitude }
           }
+          key={driverLocation.driver_id}
         />
       ))}
     </Map>

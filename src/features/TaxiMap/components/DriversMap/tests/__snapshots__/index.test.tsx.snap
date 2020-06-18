@@ -1,3 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GoogleApiWrapper /> should render loading screen 1`] = `<DefaultLoadingContainer />`;
+exports[`<DriversMap /> should render map with markers 1`] = `
+<Map
+  center={Object {}}
+  centerAroundCurrentLocation={false}
+  className="map"
+  containerStyle={Object {}}
+  google={[MockFunction]}
+  initialCenter={
+    Object {
+      "lat": 51.5049375,
+      "lng": -0.0964509,
+    }
+  }
+  style={
+    Object {
+      "height": "50%",
+      "margin": "10px",
+      "position": "relative",
+      "width": "55%",
+    }
+  }
+  visible={true}
+  zoom={13}
+>
+  <Marker
+    key="1"
+    name="Marker"
+    position={
+      Object {
+        "lat": 50,
+        "lng": -1,
+      }
+    }
+  />
+  <Marker
+    key="2"
+    name="Marker"
+    position={
+      Object {
+        "lat": 50,
+        "lng": -1,
+      }
+    }
+  />
+</Map>
+`;
