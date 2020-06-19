@@ -23,6 +23,7 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'linebreak-style': ["error", "windows"],
   },
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
