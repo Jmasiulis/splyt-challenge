@@ -71,5 +71,8 @@ Typescript for data typing and overall better coding experience.
 
 And other tools for redux configuration, eslint management, etc.
 
+## Issues encountered:
+CORS related issues were not present in the local machine during the development, however, they were present in other machines, not able to do cross fetch, thus failing the API calls. Solution to this was to add proxying in package.json file with the remote API URL reference.
+More about this [https://create-react-app.dev/docs/proxying-api-requests-in-development/](can be found in official documentation).
 ## Author:
 Justinas Masiulis - Developer
