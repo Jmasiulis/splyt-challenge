@@ -4,7 +4,6 @@ This is Splyt Tech Task.
 ## Dependencies necessary:
 - [Node.js (preferably the newest version)](https://nodejs.org/en/)
 - [Yarn package manager](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-- [User created in Foursquare](https://developer.foursquare.com/docs/)
 
 ## Commands to run:
 
