@@ -42,7 +42,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## IMPORTANT: Environment variable is needed
-Since I'm using third party library with Google Maps, non-development version requires to have an API key. I believe it shouldn't be necessary if you don't have one but if you want to see the application as intended, I suggest grabbing one for free [https://cloud.google.com/maps-platform/](in Google Maps development page)
+Since I'm using third party library with Google Maps, non-development version requires to have an API key. I believe it shouldn't be necessary if you don't have one but if you want to see the application as intended, I suggest grabbing one for free [in Google Maps development page](https://cloud.google.com/maps-platform/)
 I personally use .env file with following variable:
 REACT_APP_GOOGLE_MAPS_API_KEY=YOUR_VARIABLE_HERE
 
@@ -73,6 +73,6 @@ And other tools for redux configuration, eslint management, etc.
 
 ## Issues encountered:
 CORS related issues were not present in the local machine during the development, however, they were present in other machines, not able to do cross fetch, thus failing the API calls. Solution to this was to add proxying in package.json file with the remote API URL reference.
-More about this [https://create-react-app.dev/docs/proxying-api-requests-in-development/](can be found in official documentation).
+More about this [can be found in the official documentation](https://create-react-app.dev/docs/proxying-api-requests-in-development/).
 ## Author:
 Justinas Masiulis - Developer
