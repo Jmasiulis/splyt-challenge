@@ -17,7 +17,7 @@ export interface PayloadProps {
 }
 
 function buildApiUrl({ taxiCount }: ApiProps): string {
-  return `http://qa-interview-test.splytech.dev/api/drivers?latitude=51.5049375&longitude=-0.0964509&count=${taxiCount}`;
+  return `/api/drivers?latitude=51.5049375&longitude=-0.0964509&count=${taxiCount}`;
 }
 
 export interface GetTaxiLocationsAction extends Action {
