@@ -8,9 +8,10 @@ import WelcomeText from './components/WelcomeText';
 import ErrorText from './components/ErrorText';
 
 import { getTaxiLocations } from '../../actions/TaxiMap';
+import { DriversProps } from './types';
 
 interface MappedStateProps {
-  driverLocations: string;
+  driverLocations: DriversProps[];
   isError: boolean;
 }
 
